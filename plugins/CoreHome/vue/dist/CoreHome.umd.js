@@ -96,6 +96,13 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
+/***/ "1bf2":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "2342":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -110,6 +117,17 @@ return /******/ (function(modules) { // webpackBootstrap
 // see https://github.com/matomo-org/matomo/issues/5094 used to detect an ad blocker
 
 window.hasBlockedContent = false;
+
+/***/ }),
+
+/***/ "7e1f":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_0_1_Clock_vue_vue_type_style_index_0_id_2be3a109_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("1bf2");
+/* harmony import */ var _node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_0_1_Clock_vue_vue_type_style_index_0_id_2be3a109_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_cli_service_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_vue_cli_service_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_vue_cli_service_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_cli_service_node_modules_vue_loader_v16_dist_index_js_ref_0_1_Clock_vue_vue_type_style_index_0_id_2be3a109_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
 
 /***/ }),
 
@@ -203,6 +221,8 @@ __webpack_require__.d(__webpack_exports__, "Progressbar", function() { return /*
 __webpack_require__.d(__webpack_exports__, "ContentIntro", function() { return /* reexport */ ContentIntro; });
 __webpack_require__.d(__webpack_exports__, "ContentTable", function() { return /* reexport */ ContentTable; });
 __webpack_require__.d(__webpack_exports__, "AjaxForm", function() { return /* reexport */ AjaxForm; });
+__webpack_require__.d(__webpack_exports__, "clockAdapter", function() { return /* reexport */ Clock_adapter; });
+__webpack_require__.d(__webpack_exports__, "Clock", function() { return /* reexport */ Clock; });
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
@@ -12271,6 +12291,167 @@ ShowHelpLinkvue_type_script_lang_ts.render = ShowHelpLinkvue_type_template_id_19
   },
   directiveName: 'piwikShowHelpLink'
 }));
+// CONCATENATED MODULE: ./node_modules/@vue/cli-plugin-babel/node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/@vue/cli-plugin-babel/node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist/templateLoader.js??ref--6!./node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./plugins/CoreHome/vue/src/Clock/Clock.vue?vue&type=template&id=2be3a109&scoped=true
+
+
+Object(external_commonjs_vue_commonjs2_vue_root_Vue_["pushScopeId"])("data-v-2be3a109");
+
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_1 = {
+  class: "clockWidget"
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_2 = {
+  class: "browserTime"
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_3 = {
+  class: "clockWidgetSubheading"
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_4 = {
+  key: 0
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_5 = {
+  key: 1
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_6 = {
+  class: "timestamp"
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_7 = {
+  key: 0,
+  class: "siteTime"
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_8 = {
+  class: "clockWidgetSubheading"
+};
+var Clockvue_type_template_id_2be3a109_scoped_true_hoisted_9 = {
+  class: "timestamp"
+};
+
+Object(external_commonjs_vue_commonjs2_vue_root_Vue_["popScopeId"])();
+
+function Clockvue_type_template_id_2be3a109_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("div", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_1, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_2, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_3, [_ctx.showSiteTime ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("span", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_4, " Browser ")) : (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("span", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_5, " Current ")), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createTextVNode"])(" Time (" + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_ctx.browserTimezone) + ") ", 1)]), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_6, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_ctx.browserDate) + " " + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_ctx.browserTime), 1)]), _ctx.showSiteTime ? (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["openBlock"])(), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementBlock"])("div", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_7, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_8, " Site Time (" + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_ctx.siteTimezone) + ") ", 1), Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createElementVNode"])("div", Clockvue_type_template_id_2be3a109_scoped_true_hoisted_9, Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_ctx.siteDate) + " " + Object(external_commonjs_vue_commonjs2_vue_root_Vue_["toDisplayString"])(_ctx.siteTime), 1)])) : Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createCommentVNode"])("", true)]);
+}
+// CONCATENATED MODULE: ./plugins/CoreHome/vue/src/Clock/Clock.vue?vue&type=template&id=2be3a109&scoped=true
+
+// CONCATENATED MODULE: ./node_modules/@vue/cli-plugin-typescript/node_modules/cache-loader/dist/cjs.js??ref--14-0!./node_modules/babel-loader/lib!./node_modules/@vue/cli-plugin-typescript/node_modules/ts-loader??ref--14-2!./node_modules/@vue/cli-service/node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./plugins/CoreHome/vue/src/Clock/Clock.vue?vue&type=script&lang=ts
+
+/* harmony default export */ var Clockvue_type_script_lang_ts = (Object(external_commonjs_vue_commonjs2_vue_root_Vue_["defineComponent"])({
+  props: {
+    siteTimezone: String
+  },
+  data: function data() {
+    var _this$siteTimezone;
+
+    return {
+      timezone: (_this$siteTimezone = this.siteTimezone) !== null && _this$siteTimezone !== void 0 ? _this$siteTimezone : '',
+      siteDate: '',
+      siteTime: '',
+      showSiteTime: false,
+      browserDate: '',
+      browserTime: '',
+      browserTimezone: ''
+    };
+  },
+  mounted: function mounted() {
+    this.setBrowserTimezone();
+    this.setTime();
+  },
+  methods: {
+    setBrowserTimezone: function setBrowserTimezone() {
+      this.browserTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    },
+    setTime: function setTime() {
+      var _this = this;
+
+      var siteTime = new Date().toLocaleTimeString(['en-US'], {
+        timeZone: this.siteTimezone,
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+      var browserTime = new Date().toLocaleTimeString(['en-US'], {
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+
+      if (siteTime !== browserTime) {
+        this.siteDate = this.getSiteDate();
+        this.siteTime = this.getSiteTime();
+        this.showSiteTime = true;
+      }
+
+      this.browserDate = this.getBrowserDate();
+      this.browserTime = this.getBrowserTime(); // Set the time again after x seconds, depending on the number of seconds left in the minute.
+      // This will usually be 60.
+
+      var secondsRemaining = 60 - new Date().getSeconds();
+      setTimeout(function () {
+        _this.setTime();
+      }, secondsRemaining);
+    },
+    getBrowserDate: function getBrowserDate() {
+      var currentBrowserDate = new Date().toLocaleString('en-US');
+      return this.formatDate(currentBrowserDate);
+    },
+    getBrowserTime: function getBrowserTime() {
+      return new Date().toLocaleTimeString(['en-US'], {
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    },
+    getSiteDate: function getSiteDate() {
+      var currentBrowserDate = new Date().toLocaleString('en-US', {
+        timeZone: this.siteTimezone
+      });
+      return this.formatDate(currentBrowserDate);
+    },
+    getSiteTime: function getSiteTime() {
+      return new Date().toLocaleTimeString(['en-US'], {
+        timeZone: this.siteTimezone,
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    },
+    formatDate: function formatDate(dateString) {
+      var newDate = new Date(dateString);
+      var year = newDate.getFullYear();
+      var month = "0".concat(newDate.getMonth() + 1).slice(-2);
+      var date = "0".concat(newDate.getDate()).slice(-2);
+      return "".concat(year, "/").concat(month, "/").concat(date);
+    }
+  }
+}));
+// CONCATENATED MODULE: ./plugins/CoreHome/vue/src/Clock/Clock.vue?vue&type=script&lang=ts
+ 
+// EXTERNAL MODULE: ./plugins/CoreHome/vue/src/Clock/Clock.vue?vue&type=style&index=0&id=2be3a109&scoped=true&lang=css
+var Clockvue_type_style_index_0_id_2be3a109_scoped_true_lang_css = __webpack_require__("7e1f");
+
+// CONCATENATED MODULE: ./plugins/CoreHome/vue/src/Clock/Clock.vue
+
+
+
+
+
+Clockvue_type_script_lang_ts.render = Clockvue_type_template_id_2be3a109_scoped_true_render
+Clockvue_type_script_lang_ts.__scopeId = "data-v-2be3a109"
+
+/* harmony default export */ var Clock = (Clockvue_type_script_lang_ts);
+// CONCATENATED MODULE: ./plugins/CoreHome/vue/src/Clock/Clock.adapter.ts
+/*!
+ * Matomo - free/libre analytics platform
+ *
+ * @link https://matomo.org
+ * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
+ */
+
+
+/* harmony default export */ var Clock_adapter = (createAngularJsAdapter({
+  component: Clock,
+  scope: {
+    periods: {
+      angularJsBind: '<'
+    }
+  },
+  directiveName: 'piwikClock'
+}));
 // CONCATENATED MODULE: ./plugins/CoreHome/vue/src/getFormattedEvolution.ts
 /*!
  * Matomo - free/libre analytics platform
@@ -12383,6 +12564,9 @@ function deleteCookie(name) {
  * @link https://matomo.org
  * @license http://www.gnu.org/licenses/gpl-3.0.html GPL v3 or later
  */
+
+
+
 
 
 
